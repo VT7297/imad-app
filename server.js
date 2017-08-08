@@ -15,11 +15,11 @@ app.get('/article1',function(req,res){
 });
 
 app.get('/article2',function(req,res){
-    res.send('this is article one and it will be served here')
+    res.send('this is article two and it will be served here')
 });
 
 app.get('/article3',function(req,res){
-    res.send('this is article one and it will be served here')
+    res.send('this is article three and it will be served here')
 });
 
 app.get('/ui/style.css', function (req, res) {
